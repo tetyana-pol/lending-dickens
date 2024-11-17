@@ -1,0 +1,86 @@
+@import "colors";
+
+.courses {
+  &__title {
+    font-weight: 500;
+    font-size: 42px;
+    line-height: 63px;
+    color: $color_blue;
+  }
+
+  &__item {
+    padding: 40px;
+    margin-bottom: 20px;
+    border: 2px $color_blue solid;
+    border-radius: 20px;
+
+    &-name {
+      display: flex;
+      align-items: center;
+      gap: 12px;
+      font-weight: 500;
+      font-size: 24px;
+      line-height: 36px;
+      color: $color_blue;
+    }
+
+    &-img {
+      border-radius: 12px;
+      background-color: $color_blue;
+      padding: 16px;
+    }
+
+    &-general {
+      display: flex;
+      gap: 12px;
+    }
+
+    &-detail {
+      margin-top: 40px;
+      display: flex;
+      align-items: center;
+      gap: 2px;
+    }
+
+    &-title {
+      margin-top: 40px;
+      text-transform: uppercase;
+      font-weight: 500;
+      font-size: 20px;
+      line-height: 30px;
+      color: $color_blue;
+    }
+
+    &-description {
+      margin-top: 16px;
+    }
+
+    &-subtitle {
+      margin-top: 16px;
+      font-weight: 500;
+      font-size: 18px;
+      line-height: 27px;
+    }
+
+    &-row {
+      display: flex;
+      align-items: center;
+    }
+
+    &-price {
+      margin-top: 24px;
+      font-weight: 500;
+      font-size: 30px;
+      line-height: 45px;
+      color: $color_blue;
+    }
+
+    &-button {
+      margin-top: 40px;
+      padding: 14px 85px;
+      background-color: $color_blue;
+      border-radius: 14px;
+      color: white;
+    }
+  }
+}

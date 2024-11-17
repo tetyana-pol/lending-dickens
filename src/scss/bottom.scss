@@ -1,0 +1,21 @@
+@import "colors";
+
+.bottom {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+
+  &__copyright {
+    color: $color-blue;
+  }
+
+  &__nav {
+    display: flex;
+    gap: 16px;
+
+    a {
+      text-decoration: none;
+      color: black;
+    }
+  }
+}

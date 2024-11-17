@@ -1,0 +1,74 @@
+.welcome__header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.welcome__header-menu {
+  display: flex;
+  gap: 48px;
+  align-items: center;
+}
+.welcome__header-main {
+  display: flex;
+  gap: 16px;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 16px;
+}
+.welcome__header-main a {
+  text-decoration: none;
+  color: black;
+}
+.welcome__header-main a:hover {
+  color: #003366;
+}
+.welcome__header-main a img {
+  width: 14px;
+  height: 14px;
+}
+.welcome__header-login {
+  background-color: #003366;
+  padding: 14px 30px;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 30px;
+  color: white;
+  border-radius: 14px;
+}
+.welcome__submenu {
+  margin-top: 50px;
+  display: flex;
+  gap: 24px;
+}
+.welcome__submenu-inform {
+  background-color: #003366;
+  padding: 100px 80px;
+  border-radius: 20px;
+  flex-grow: 2;
+  flex-basis: 0;
+}
+.welcome__submenu-img {
+  flex-grow: 1;
+  flex-basis: 0;
+}
+.welcome__submenu-title {
+  color: white;
+  font-weight: 600;
+  font-size: 48px;
+  line-height: 57px;
+}
+.welcome__submenu-subtitle {
+  color: white;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 27px;
+}
+.welcome__submenu-subtitle button {
+  margin-top: 40px;
+  padding: 14px 20px;
+  border-radius: 14px;
+  color: #003366;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 30px;
+}

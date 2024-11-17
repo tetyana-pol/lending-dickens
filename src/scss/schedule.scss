@@ -1,0 +1,49 @@
+@import "colors";
+
+.schedule {
+  padding-block: 83px;
+  display: flex;
+  gap: 24px;
+  background-color: $color-blue;
+
+  &__description {
+    width: 50%;
+
+    &-title {
+      text-transform: uppercase;
+      font-weight: 500;
+      font-size: 42px;
+      line-height: 63px;
+      color: white;
+    }
+    &-subtitle {
+      font-weight: 400;
+      font-size: 18px;
+      line-height: 27px;
+      color: white;
+    }
+  }
+
+  &__form {
+    width: 50%;
+
+    &-input {
+      width: 100%;
+      height: 48px;
+      padding: 14px 16px;
+      margin-bottom: 16px;
+
+      &::placeholder {
+        color: #7e7e83;
+      }
+    }
+
+    &-button {
+      border-radius: 14px;
+      padding: 14px 30px;
+      font-weight: 400;
+      font-size: 20px;
+      line-height: 30px;
+    }
+  }
+}

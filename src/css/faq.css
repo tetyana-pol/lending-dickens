@@ -1,0 +1,42 @@
+.faq__title {
+  font-weight: 500;
+  font-size: 42px;
+  line-height: 63px;
+  color: #003366;
+}
+.faq__main {
+  display: flex;
+  gap: 24px;
+}
+.faq__main-item {
+  padding: 40px;
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 30px;
+}
+.faq__main-form {
+  padding: 57px 60px;
+  background-color: #003366;
+  border-radius: 14px;
+}
+.faq__main-title {
+  font-weight: 500;
+  font-size: 24px;
+  line-height: 36px;
+  color: white;
+}
+.faq__main-input {
+  margin-top: 20px;
+  padding: 18px 14px;
+  width: 100%;
+}
+.faq__main-button {
+  margin-top: 54px;
+  padding: 14px 30px;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 30px;
+  color: #003366;
+  background-color: #fbfbfb;
+  border-radius: 14px;
+}

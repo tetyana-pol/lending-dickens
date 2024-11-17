@@ -1,0 +1,451 @@
+.container {
+  padding-inline: 87px;
+  max-width: 1440px;
+  width: 100%;
+  margin-inline: auto;
+  display: flex;
+  gap: 100px;
+  flex-direction: column;
+  justify-content: center;
+  margin-bottom: 32px;
+}
+
+.welcome__header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.welcome__header-menu {
+  display: flex;
+  gap: 48px;
+  align-items: center;
+}
+.welcome__header-main {
+  display: flex;
+  gap: 16px;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 16px;
+}
+.welcome__header-main a {
+  text-decoration: none;
+  color: black;
+}
+.welcome__header-main a:hover {
+  color: #003366;
+}
+.welcome__header-main a img {
+  width: 14px;
+  height: 14px;
+}
+.welcome__header-login {
+  background-color: #003366;
+  padding: 14px 30px;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 30px;
+  color: white;
+  border-radius: 14px;
+}
+.welcome__submenu {
+  margin-top: 50px;
+  display: flex;
+  gap: 24px;
+}
+.welcome__submenu-inform {
+  background-color: #003366;
+  padding: 100px 80px;
+  border-radius: 20px;
+  flex-grow: 2;
+  flex-basis: 0;
+}
+.welcome__submenu-img {
+  flex-grow: 1;
+  flex-basis: 0;
+}
+.welcome__submenu-title {
+  color: white;
+  font-weight: 600;
+  font-size: 48px;
+  line-height: 57px;
+}
+.welcome__submenu-subtitle {
+  color: white;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 27px;
+}
+.welcome__submenu-subtitle button {
+  margin-top: 40px;
+  padding: 14px 20px;
+  border-radius: 14px;
+  color: #003366;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 30px;
+}
+
+.advantages {
+  padding-block: 100px;
+  background-color: #e0e7ef;
+}
+.advantages__title {
+  padding: 30px 300px 30px 50px;
+  background-color: white;
+  font-weight: 500;
+  font-size: 42px;
+  line-height: 63px;
+}
+.advantages__items {
+  display: flex;
+  gap: 23px;
+}
+.advantages__items-item {
+  padding: 30px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 12px;
+}
+.advantages__items-item-txt {
+  text-align: center;
+  font-weight: 500;
+  font-size: 24px;
+  line-height: 36px;
+  color: #003366;
+}
+.advantages__items-item-subtxt {
+  text-align: center;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 27px;
+}
+
+.about__title {
+  display: flex;
+  justify-content: space-between;
+}
+.about__title-txt {
+  font-weight: 500;
+  font-size: 42px;
+  line-height: 63px;
+  color: #003366;
+}
+.about__title-learn {
+  display: flex;
+  align-items: center;
+  gap: 5px;
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 30px;
+  color: #343434;
+}
+.about__title-learn img {
+  width: 40px;
+  height: 40px;
+  border-radius: 100px;
+  background-color: #003366;
+}
+.about__information {
+  display: flex;
+  gap: 25px;
+}
+.about__information-text {
+  padding: 37px 32px 22px 34px;
+  background-color: #003366;
+  border-radius: 20px;
+  color: white;
+}
+.about__information-large {
+  text-transform: uppercase;
+  font-weight: 500;
+  font-size: 36px;
+  line-height: 54px;
+}
+.about__information-small {
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 27px;
+}
+.about__information-statistic {
+  margin-top: 25px;
+  display: flex;
+  gap: 24px;
+}
+.about__information-years {
+  padding: 34px 75px;
+  background-color: #003366;
+  border-radius: 14px;
+  color: white;
+  text-align: center;
+}
+.about__information-years p:first-child {
+  font-weight: 500;
+  font-size: 42px;
+  line-height: 63px;
+}
+.about__information-years p:nth-child(even) {
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 27px;
+}
+.about__information-graduates {
+  padding: 34px 75px;
+  background-color: #003366;
+  border-radius: 14px;
+  color: white;
+}
+.about__information-graduates p:first-child {
+  font-weight: 500;
+  font-size: 42px;
+  line-height: 63px;
+}
+.about__information-graduates p:nth-child(even) {
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 27px;
+}
+
+.courses__title {
+  font-weight: 500;
+  font-size: 42px;
+  line-height: 63px;
+  color: #003366;
+}
+.courses__item {
+  padding: 40px;
+  margin-bottom: 20px;
+  border: 2px #003366 solid;
+  border-radius: 20px;
+}
+.courses__item-name {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  font-weight: 500;
+  font-size: 24px;
+  line-height: 36px;
+  color: #003366;
+}
+.courses__item-img {
+  border-radius: 12px;
+  background-color: #003366;
+  padding: 16px;
+}
+.courses__item-general {
+  display: flex;
+  gap: 12px;
+}
+.courses__item-detail {
+  margin-top: 40px;
+  display: flex;
+  align-items: center;
+  gap: 2px;
+}
+.courses__item-title {
+  margin-top: 40px;
+  text-transform: uppercase;
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 30px;
+  color: #003366;
+}
+.courses__item-description {
+  margin-top: 16px;
+}
+.courses__item-subtitle {
+  margin-top: 16px;
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 27px;
+}
+.courses__item-row {
+  display: flex;
+  align-items: center;
+}
+.courses__item-price {
+  margin-top: 24px;
+  font-weight: 500;
+  font-size: 30px;
+  line-height: 45px;
+  color: #003366;
+}
+.courses__item-button {
+  margin-top: 40px;
+  padding: 14px 85px;
+  background-color: #003366;
+  border-radius: 14px;
+  color: white;
+}
+
+.schedule {
+  padding-block: 83px;
+  display: flex;
+  gap: 24px;
+  background-color: #003366;
+}
+.schedule__description {
+  width: 50%;
+}
+.schedule__description-title {
+  text-transform: uppercase;
+  font-weight: 500;
+  font-size: 42px;
+  line-height: 63px;
+  color: white;
+}
+.schedule__description-subtitle {
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 27px;
+  color: white;
+}
+.schedule__form {
+  width: 50%;
+}
+.schedule__form-input {
+  width: 100%;
+  height: 48px;
+  padding: 14px 16px;
+  margin-bottom: 16px;
+}
+.schedule__form-input::placeholder {
+  color: #7e7e83;
+}
+.schedule__form-button {
+  border-radius: 14px;
+  padding: 14px 30px;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 30px;
+}
+
+.testimonials__title {
+  font-weight: 500;
+  font-size: 42px;
+  line-height: 63px;
+  color: #003366;
+}
+.testimonials__items {
+  display: flex;
+  gap: 24px;
+}
+.testimonials__items-item {
+  display: flex;
+  gap: 20px;
+  padding: 20px 78px 27px 20px;
+  border-radius: 12px;
+  border: solid 1px #003366;
+}
+.testimonials__items-name {
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 30px;
+  color: #343434;
+}
+.testimonials__items-subname {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+  color: #6b6b6b;
+}
+.testimonials__items-starr {
+  width: 24px;
+  height: 24px;
+}
+.testimonials__items-text {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+}
+.testimonials__bottom {
+  width: 180px;
+  margin: 50px auto 0 auto;
+  display: flex;
+  align-items: center;
+  border: solid 1px #bfccd8;
+}
+.testimonials__button-left {
+  padding: 6px;
+  border-radius: 46px;
+  background-color: #c2d1e0;
+}
+.testimonials__button-right {
+  padding: 6px;
+  border-radius: 46px;
+  background-color: #003366;
+}
+
+.faq__title {
+  font-weight: 500;
+  font-size: 42px;
+  line-height: 63px;
+  color: #003366;
+}
+.faq__main {
+  display: flex;
+  gap: 24px;
+}
+.faq__main-item {
+  padding: 40px;
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 30px;
+}
+.faq__main-form {
+  padding: 57px 60px;
+  background-color: #003366;
+  border-radius: 14px;
+}
+.faq__main-title {
+  font-weight: 500;
+  font-size: 24px;
+  line-height: 36px;
+  color: white;
+}
+.faq__main-input {
+  margin-top: 20px;
+  padding: 18px 14px;
+  width: 100%;
+}
+.faq__main-button {
+  margin-top: 54px;
+  padding: 14px 30px;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 30px;
+  color: #003366;
+  background-color: #fbfbfb;
+  border-radius: 14px;
+}
+
+.bottom {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.bottom__copyright {
+  color: #003366;
+}
+.bottom__nav {
+  display: flex;
+  gap: 16px;
+}
+.bottom__nav a {
+  text-decoration: none;
+  color: black;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Robotto", sans-serif;
+}
+
+button:hover {
+  cursor: pointer;
+}

@@ -1,0 +1,16 @@
+.bottom {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.bottom__copyright {
+  color: #003366;
+}
+.bottom__nav {
+  display: flex;
+  gap: 16px;
+}
+.bottom__nav a {
+  text-decoration: none;
+  color: black;
+}

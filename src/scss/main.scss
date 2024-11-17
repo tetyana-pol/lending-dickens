@@ -1,0 +1,24 @@
+@import "colors";
+@import "container";
+@import "welcome";
+@import "advantages";
+@import "about";
+@import "courses";
+@import "schedule";
+@import "testimonials";
+@import "faq";
+@import "bottom";
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Robotto", sans-serif;
+}
+
+button:hover {
+  cursor: pointer;
+}

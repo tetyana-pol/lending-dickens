@@ -1,0 +1,68 @@
+@import "colors";
+
+.testimonials {
+  &__title {
+    font-weight: 500;
+    font-size: 42px;
+    line-height: 63px;
+    color: $color-blue;
+  }
+
+  &__items {
+    display: flex;
+    gap: 24px;
+
+    &-item {
+      display: flex;
+      gap: 20px;
+      padding: 20px 78px 27px 20px;
+      border-radius: 12px;
+      border: solid 1px $color-blue;
+    }
+
+    &-name {
+      font-weight: 500;
+      font-size: 20px;
+      line-height: 30px;
+      color: #343434;
+    }
+
+    &-subname {
+      font-weight: 400;
+      font-size: 16px;
+      line-height: 24px;
+      color: #6b6b6b;
+    }
+
+    &-starr {
+      width: 24px;
+      height: 24px;
+    }
+
+    &-text {
+      font-weight: 400;
+      font-size: 16px;
+      line-height: 24px;
+    }
+  }
+
+  &__bottom {
+    width: 180px;
+    margin: 50px auto 0 auto;
+    display: flex;
+    align-items: center;
+    border: solid 1px #bfccd8;
+  }
+
+  &__button-left {
+    padding: 6px;
+    border-radius: 46px;
+    background-color: #c2d1e0;
+  }
+
+  &__button-right {
+    padding: 6px;
+    border-radius: 46px;
+    background-color: $color-blue;
+  }
+}
